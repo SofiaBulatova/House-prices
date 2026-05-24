@@ -1,0 +1,13 @@
+{
+    "best_model": "catboost",
+    "best_rmse": 20273.657148219532,
+    "validation_method": "holdout",
+    "params": {
+        "iterations": 2000,
+        "verbose": false,
+        "random_state": 42,
+        "learning_rate": 0.03,
+        "depth": 6,
+        "loss_function": "RMSE"
+    }
+}
