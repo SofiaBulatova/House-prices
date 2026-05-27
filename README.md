@@ -32,3 +32,18 @@ ML-пайплайн для задачи Kaggle House Prices.
 ## Результаты
 По результатам валидации была выбрана CatBoost с методом holdout и RMSE 20273.66.  
 На Kaggle Public Score - 0,12412
+## Установка и запуск
+1. **Клонировать репозиторий**
+   ```bash
+   git clone https://github.com/SofiaBulatova/House-prices.git
+   cd House-prices
+2. **Создать и активировать окружение**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+4. **Установить зависимости**
+   ```bash
+   pip install -r requirements.txt
+5. **Запустить обучение**
+   ```bash
+   python main.py
